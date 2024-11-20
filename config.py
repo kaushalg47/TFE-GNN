@@ -30,15 +30,15 @@ class Config:
 ISCX-VPN Dataset Configuration
 '''
 class ISCXVPNConfig(Config):
-    TRAIN_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/train.npz'
-    HEADER_TRAIN_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/header_train.npz'
-    TEST_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/test.npz'
-    HEADER_TEST_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/header_test.npz'
+    TRAIN_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/train.npz'
+    HEADER_TRAIN_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/header_train.npz'
+    TEST_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/test.npz'
+    HEADER_TEST_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/header_test.npz'
 
-    TRAIN_GRAPH_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/train_graph.dgl'
-    HEADER_TRAIN_GRAPH_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/header_train_graph.dgl'
-    TEST_GRAPH_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/test_graph.dgl'
-    HEADER_TEST_GRAPH_DATA = r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/header_test_graph.dgl'
+    TRAIN_GRAPH_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/train_graph.dgl'
+    HEADER_TRAIN_GRAPH_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/header_train_graph.dgl'
+    TEST_GRAPH_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/test_graph.dgl'
+    HEADER_TEST_GRAPH_DATA = r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/header_test_graph.dgl'
 
     MIX_MODEL_CHECKPOINT = r'./checkpoints/mix_model_iscx_vpn.pth'
 
@@ -60,12 +60,11 @@ class ISCXVPNConfig(Config):
     EMBEDDING_SIZE = 64
     H_FEATS = 128
 
-    DIR_PATH_DICT = {0: r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/Chat',
-                     1: r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/Email',
-                     2: r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/File',
-                     3: r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/P2P',
-                     4: r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/Streaming',
-                     5: r'/data1/zhz/ISCX-VPN-NonVPN-2016/VPN_SPLIT/TCP/VoIP',
+    DIR_PATH_DICT = {0: r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/Chat',
+                     1: r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/Email',
+                     2: r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/File',
+                     3: r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/P2P',
+                     4: r'C:/Users/kaushal/Downloads/VPN-PCAPS-01/VPN-SPLIT/TCP/Streaming',
                      }
 
 

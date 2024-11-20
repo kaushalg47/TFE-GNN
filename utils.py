@@ -289,6 +289,10 @@ def construct_graph(bytes, w_size, k=1):
 
     src = [bytes2id[i] for i in src]
     dst = [bytes2id[i] for i in dst]
+    print("src:", src,len(src))
+    print("dst:", dst,len(dst))
+    print(dir(dgl))
+
 
     g = dgl.graph((src, dst))
     g.ndata['feat'] = torch.tensor(feat, dtype=torch.float32)
